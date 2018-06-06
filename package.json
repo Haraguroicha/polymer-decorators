@@ -1,6 +1,6 @@
 {
-  "name": "polymer3-decorators",
-  "version": "0.0.1",
+  "name": "darkengines-polymer3-decorators",
+  "version": "0.0.2",
   "description": "ES7/TypeScript decorators to facilitate creation of Polymer elements.",
   "main": "dist/index.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Haraguroicha/polymer-decorators.git"
+    "url": "git+https://github.com/darkengines/polymer-decorators.git"
   },
   "keywords": [
     "polymer",
@@ -25,12 +25,12 @@
     "element",
     "webcomponents"
   ],
-  "author": "Haraguroicha",
+  "author": "Haraguroicha, darkengines",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Haraguroicha/polymer-decorators/issues"
+    "url": "https://github.com/darkengines/polymer-decorators/issues"
   },
-  "homepage": "https://github.com/Haraguroicha/polymer-decorators#readme",
+  "homepage": "https://github.com/darkengines/polymer-decorators",
   "dependencies": {
     "reflect-metadata": "^0.1.10"
   },
