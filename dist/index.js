@@ -72,8 +72,8 @@ function property(first, second) {
     function decorate(target, key) {
         if (Reflect.hasMetadata("design:type", target, key))
             args.type = Reflect.getMetadata("design:type", target, key);
-        target.properties = target.properties || {};
-        target.properties[key] = Object.assign(args, target.properties[key] || {});
+		target.constructor.properties = target.constructor.properties || {};
+		target.constructor.properties[key] = Object.assign(args, target.constructor.properties[key] || {});
     }
     ;
     if (isGenerator) {
